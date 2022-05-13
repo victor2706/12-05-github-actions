@@ -1,0 +1,22 @@
+name: Comandos Shell
+
+#Eventos (gatilhos que ativam a execução)
+on: [push]
+
+jobs:
+
+    rodar-comandos-shell:
+    #Ambiente
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Exibir uma string
+      run: eco "olá mundo!"
+      name: Script de Várias linhas
+      run: 
+
+          node -v 
+          npm -v
+
