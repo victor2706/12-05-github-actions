@@ -1,5 +1,5 @@
-on: [push]
 name: Comandos Shell
+on: [push]
 #Eventos (gatilhos que ativam a execução)
 jobs:
 
