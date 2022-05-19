@@ -1,6 +1,6 @@
+on: [push]
 name: Comandos Shell
 #Eventos (gatilhos que ativam a execução)
-on: [push]
 jobs:
 
     rodar-comandos-shell:
