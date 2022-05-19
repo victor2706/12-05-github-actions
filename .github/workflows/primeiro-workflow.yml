@@ -15,8 +15,7 @@ jobs:
     - name: Exibir uma string
       run: eco "olá mundo!"
       name: Script de Várias linhas
-      run: 
-
+      run: |
           node -v 
           npm -v
 
